@@ -1,0 +1,19 @@
+.is-parent {
+  overflow: auto;
+}
+
+.tile.is-child {
+  padding: 5px;
+  margin-right: 17px !important;
+  padding: 7px !important;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+  background: gray;
+}
+::-webkit-scrollbar-thumb:horizontal {
+  background: #000;
+  border-radius: 10px;
+}
